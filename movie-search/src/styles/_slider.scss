@@ -1,0 +1,48 @@
+
+.swiper-container {
+  width: 95%;
+  height: 80%;
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      cursor: pointer;
+      transition: 0.3s;
+      transform: scale(0.97);
+    }
+
+    .movie-title {
+      @include font-source-sans(false, $fonts-dark);
+      width: 200px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      &:hover {
+        color: $error-color;
+      }
+    }
+    .movie-rate {
+      @include font-source-sans(false, $fonts-dark);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .movie-year {
+      @include font-source-sans(false, $fonts-dark);
+    }
+
+    .movie-poster {
+      img{
+        max-width: 200px;
+        height: 300px;
+      }
+    }
+  }
+}
