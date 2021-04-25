@@ -54,7 +54,7 @@ keyboardButton.addEventListener(events.click, () => {
 const swiper = new Swiper('.swiper-container', {
   slidesPerView: 4,
   centeredSlides: true,
-  spaceBetween: 0,
+  spaceBetween: 30,
   observer: true,
   pagination: {
     el: '.swiper-pagination',

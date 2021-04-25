@@ -24,7 +24,7 @@ const createTitle = (title, id) => {
 
 const createRate = (rate) => {
   const star = document.createElement('img');
-  star.setAttribute('src', 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWG8OrTDYMbECoTTNp4qFy1h75DcKBpS8t09nMdPNNnJBprAdB&usqp=CAU');
+  star.setAttribute('src', 'https://www.flaticon.com/svg/vstatic/svg/616/616489.svg?token=exp=1619363784~hmac=3c5f44f2b82df46bc8b59c1f1f25453e');
   star.classList.add('icon');
   const movieRate = document.createElement('div');
   if (rate.imdbRating === 'N/A') {

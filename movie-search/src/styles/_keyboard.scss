@@ -29,7 +29,7 @@
             background-color: $key-color;
             margin: 0.2%;
             border-radius: 3px;
-            @include font-source-sans(false, $fonts-light);
+            @include font($fonts-light, 20px, 400);
             &:hover {
                 border-color: $fonts-light;
                 background-color: $fonts-light;

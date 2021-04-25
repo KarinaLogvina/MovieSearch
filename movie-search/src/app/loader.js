@@ -40,7 +40,7 @@ const getTranslation = async (word) => {
 const loadOmdbQuery = async (searchQuery, page = 1) => {
   loadCircle.dispatchEvent(createEvent(events.show));
 
-  const query = searchQuery || 'dream';
+  const query = searchQuery || 'pride';
   let encoded = encodeURIComponent(query.trim());
   const lang = await getLang(encoded);
   if (lang === 'ru') {

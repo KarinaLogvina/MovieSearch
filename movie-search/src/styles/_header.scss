@@ -1,6 +1,6 @@
 @import "./mixin";
 
-h1 {
-  padding-left: 15px;
-  @include font-source-sans(false, $fonts-light);
+.title {
+  padding: 35px;
+  @include font($fonts-dark, 40px, 400);
 }

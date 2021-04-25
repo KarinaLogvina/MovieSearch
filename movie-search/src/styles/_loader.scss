@@ -11,7 +11,7 @@
 
 .error, .serching-for  {
   text-align: center;
-  @include font-source-sans(false, $error-color);
+  @include font($error-color, 25px, 400);
 }
 
 @-webkit-keyframes spin {
